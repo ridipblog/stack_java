@@ -1,5 +1,4 @@
 package Stack_program;
-import java.awt.Window.Type;
 import java.util.*;
 public class evuluation_infix {
 	static class Node
