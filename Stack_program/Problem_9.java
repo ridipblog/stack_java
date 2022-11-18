@@ -48,7 +48,7 @@ public class Problem_9 {
 		name=sc.nextLine();
 		char ch[]=name.toCharArray();
 		insertStack(ch);
-		while(index<name.length() && ch[index]==stack.data)
+		while(stack!=null && ch[index]==stack.data)
 		{
 			pop();
 			index++;
