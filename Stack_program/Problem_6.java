@@ -13,7 +13,7 @@ public class Problem_6 {
 	}
 	Node stack=null;
 	Node min_stack=null;
-	int list[]={18,19,29,15,18};
+	int list[]={18,19,29,16,15};
 	public void push_stack(int data)
 	{
 		Node new_node=new Node(data);
@@ -68,6 +68,9 @@ public class Problem_6 {
 			if(data==min_stack.data)
 			{
 				pop_minStack();
+			}
+			if(min_stack.next==null)
+			{
 				break;
 			}
 		}
